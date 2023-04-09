@@ -15,5 +15,17 @@
       "description": "Servidor de produção"
     }
   ],
-  "paths": {}
+  "paths": {
+    "/users/": {
+      "get": {
+        "description": "",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  }
 }
